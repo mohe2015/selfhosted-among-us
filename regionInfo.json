@@ -1,0 +1,69 @@
+{
+    "CurrentRegionIdx": 3,
+    "Regions": [
+        {
+            "$type": "StaticHttpRegionInfo, Assembly-CSharp",
+            "Name": "North America",
+            "PingServer": "matchmaker.among.us",
+            "Servers": [
+                {
+                    "Name": "Http-1",
+                    "Ip": "https://matchmaker.among.us",
+                    "Port": 443,
+                    "UseDtls": true,
+                    "Players": 0,
+                    "ConnectionFailures": 0
+                }
+            ],
+            "TranslateName": 289
+        },
+        {
+            "$type": "StaticHttpRegionInfo, Assembly-CSharp",
+            "Name": "Europe",
+            "PingServer": "matchmaker-eu.among.us",
+            "Servers": [
+                {
+                    "Name": "Http-1",
+                    "Ip": "https://matchmaker-eu.among.us",
+                    "Port": 443,
+                    "UseDtls": true,
+                    "Players": 0,
+                    "ConnectionFailures": 0
+                }
+            ],
+            "TranslateName": 290
+        },
+        {
+            "$type": "StaticHttpRegionInfo, Assembly-CSharp",
+            "Name": "Asia",
+            "PingServer": "matchmaker-as.among.us",
+            "Servers": [
+                {
+                    "Name": "Http-1",
+                    "Ip": "https://matchmaker-as.among.us",
+                    "Port": 443,
+                    "UseDtls": true,
+                    "Players": 0,
+                    "ConnectionFailures": 0
+                }
+            ],
+            "TranslateName": 291
+        },
+        {
+            "$type": "StaticHttpRegionInfo, Assembly-CSharp",
+            "Name": "selfmade4u.de",
+            "PingServer": "selfmade4u.de",
+            "Servers": [
+                {
+                    "Name": "Http-1",
+                    "Ip": "selfmade4u.de",
+                    "Port": 22023,
+                    "UseDtls": false,
+                    "Players": 0,
+                    "ConnectionFailures": 0
+                }
+            ],
+            "TranslateName": 290
+        }
+    ]
+}
